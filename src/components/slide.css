@@ -1,0 +1,18 @@
+/* Custom styles for the carousel dots */
+.slick-dots li button:before {
+  color: gray; /* Change this to your desired color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white; /* Change this to your desired active dot color */
+  width: 10px;
+  height: 10px;
+}
+.carousel-slide {
+  padding: 0 10px; /* Adjust the value to increase/decrease the gap */
+}
+
+/* Ensure the inner container of slick track takes the full width and respects the padding */
+.slick-list {
+  margin: 0 -10px; /* Adjust this value to be the negative of the slide padding */
+}
