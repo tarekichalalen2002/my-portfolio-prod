@@ -45,15 +45,6 @@ export const projects = [
     isLiked: false,
   },
   {
-    title: "Trading Lottery",
-    description:
-      "A web app that allows users to trade and bet on cryptocurrencies.",
-    imagePath: "/trading-lottery.png",
-    link: "https://goldbet-client.onrender.com",
-    github: "",
-    isLiked: false,
-  },
-  {
     title: "Computer Vision Trainer",
     description:
       "A web app that helps users train their own computer vision model.",
